@@ -232,7 +232,7 @@ function debugclear()
 end
 
 function debuglog(label, obj)
-    printh(label .. ': '.. obj, "bnav_log")
+    printh(label .. ': '.. obj, "bnav_deb_log")
 end
 
 ----end helpers
